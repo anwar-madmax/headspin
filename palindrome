@@ -2,13 +2,13 @@
 
 Void main()
 {
-int n;
+int n,i,j,k,count=0;
 Cout<<"ENTER THE LIMIT OF ARRAY";
 cin>>n;
 for(i=0;i<n;++i)
 { cin>>a[i];
 }
-for(j=0;j<n/2;j++)
+for(j=0,k=n;j<n/2;j++,k--)
 {
 if(a[j]==a[k])
 count++;
